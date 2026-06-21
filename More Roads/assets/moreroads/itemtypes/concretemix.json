@@ -1,0 +1,10 @@
+{
+	"code": "concretemix",
+	"attributes": {
+		"inContainerTexture": { "base": "block/wood/barrel/concretemix" }
+	},
+	"texture": { "base": "item/concretemix" },
+	"creativeinventory": { "general": ["*"], "items": ["*"], "moreroads": ["*"] },
+	"maxstacksize": 64,
+	"materialDensity": 500
+}

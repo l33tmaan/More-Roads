@@ -1,0 +1,61 @@
+﻿1.X.X
+- Gave shovel the ability to convert dirt to 'loose dirt', which then combines with stones to make stone paths
+- Added the ability to place rock & stones & cement into a block & combine with stone bricks to make stone roads
+- Added the ability to place clay bricks and mortar into a block to make clay roads
+- IDK how to make temporal roads lol
+- blendedOverlays used to minimize texture usage
+
+1.6.0
+- Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao - DONE!!!
+- Liquid concrete removed - DONE!!!
+- Wooden path variants removed - they're now in vanilla! Hooray! - DONE!!!
+- Concrete removed; uses mortar instead
+
+1.5.8
+- Compatible with Bricklayers
+
+1.5.8
+- Wildcraft Trees compatibility updated
+- Stone foot path contrast reduced (thanks to NerArth!) - DONE!!!
+- Hammer & chisel no longer needed to swap between variants - DONE!!!
+
+1.5.7
+- Compatible with Wildcraft Trees
+
+1.5.6
+- Fixed Paths patches only trigger when Fixed Paths is actually installed
+
+1.5.5
+- Stone path slab no longer conflicts with vanilla stone path stair recipe (thanks to AdrianNumbers!)
+- Fixed Paths compatibility added (thanks to AdrianNumbers!)
+- Polish translation added (thanks to AdrianNumbers!)
+- Slab recipes require fewer stones
+
+1.5.4
+- Minimap textures fixed (thanks to Icarus)
+
+1.5.3
+- Road blocks no longer give free x-ray (oops)
+
+1.5.2
+- Stair textures aligned on all rotations
+- Snow texture fixes implemented (thanks to conninator2000)
+- Snow shapes fixed; generally optimized
+- Full road blocks obstruct water flow (minor visual glitches; Tyron plz fix)
+
+1.5.1
+- Concrete powder looks proper when in barrels
+- moreroads:incontainer-item-concreteportion added
+- Recipes require less wet concrete
+- Stone edging can also be made with mortar
+- Temporal Road recipe nerfed
+
+1.5.0
+- Now uses Expanded Matter as a dependency (for temporal dust)
+- Temporal dust removed
+- Road speeds buffed
+- Stone path variants added (basically Stone Path Variants but with my own textures lol)
+- Files generally cleaned up
+- Wooden paths & stone foot paths moved to moreroads domain!
+- Wood edging no longer requires mortar
+- Wood path recipe changed
