@@ -25,7 +25,7 @@
         "path4": { "base": "block/stonefootpath/{type}_stones_4" }
 	},
 	"resistance": 0.4,
-	"walkspeedmultiplier": 2,
+	"walkspeedmultiplier": 1.2,
 	"sounds": {
 		"walk": "game:walk/stone",
         "place": "game:block/loosestone*",

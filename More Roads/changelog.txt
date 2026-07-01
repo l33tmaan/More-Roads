@@ -9,7 +9,9 @@
 - Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao - DONE!!!
 - Liquid concrete removed - DONE!!!
 - Wooden path variants removed - they're now in vanilla! Hooray! - DONE!!!
-- Concrete removed; uses mortar instead
+- Blue clay roads changed into gray clay roads
+- Textures updated for basically everything
+- Transforms updated
 
 1.5.8
 - Compatible with Bricklayers

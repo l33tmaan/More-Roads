@@ -1,0 +1,27 @@
+{
+  //Clay brick roads
+  "block-stoneroad-blue-*": "Дорога из голубой глины",
+  "block-stoneroad-fire-*": "Дорога из огнеупорной глины",
+
+  "block-stoneroadslab-blue-*": "Дорожная плита из голубой глины",
+  "block-stoneroadslab-fire-*": "Дорожная плита из огнеупорной глины",
+
+  "block-stoneroadstairs-blue-up-*-*": "Дорожные ступени из голубой глины",
+  "block-stoneroadstairs-fire-up-*-*": "Дорожные ступени из огнеупорной глины",
+
+  //Clay edging
+  "block-edgestoneclay-blue-*-*-*": "Бордюр из голубой глины",
+  "block-edgestoneclay-fire-*-*-*": "Бордюр из огнеупорной глины",
+
+  //Wood edging
+  "block-edgestonewood-acacia-*-*-*": "Бордюр из акации",
+  "block-edgestonewood-aged-*-*-*": "Бордюр из древних досок",
+  "block-edgestonewood-birch-*-*-*": "Бордюр из березы",
+  "block-edgestonewood-kapok-*-*-*": "Бордюр из капока",
+  "block-edgestonewood-maple-*-*-*": "Бордюр из клен",
+  "block-edgestonewood-oak-*-*-*": "Бордюр из дуба",
+  "block-edgestonewood-pine-*-*-*": "Бордюр из сосны",
+
+  //Misc
+  "item-concretemix": "Бетонный раствор"
+}

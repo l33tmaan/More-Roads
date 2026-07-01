@@ -1,0 +1,33 @@
+{
+  //Clay brick roads
+  "block-stoneroad-blue-*": "Droga z niebieskiej gliny",
+  "block-stoneroad-fire-*": "Droga z gliny ogniotrwałej",
+
+  "block-stoneroadslab-blue-*": "Droga z niebieskiej gliny - Płyta",
+  "block-stoneroadslab-fire-*": "Droga z gliny ogniotrwałej - Płyta",
+
+  "block-stoneroadstairs-blue-up-*-*": "Droga z niebieskiej gliny - Schody",
+  "block-stoneroadstairs-fire-up-*-*": "Droga z gliny ogniotrwałej - Schody",
+
+  //Clay edging
+  "block-edgestoneclay-blue-*-*-*": "Krawężnik z niebeskiej gliny",
+  "block-edgestoneclay-fire-*-*-*": "Krawężnik z gliny ogniotrwałej",
+
+  //Wood edging
+  "block-edgestonewood-acacia-*-*-*": "Drewniany krawężnik z akacji",
+  "block-edgestonewood-aged-*-*-*": "Wiekowy drewniany krawężnik",
+  "block-edgestonewood-birch-*-*-*": "Drewniany krawężnik z brzozy",
+  "block-edgestonewood-kapok-*-*-*": "Drewniany krawężnik z kapoka",
+  "block-edgestonewood-maple-*-*-*": "Drewniany krawężnik z klonu",
+  "block-edgestonewood-oak-*-*-*": "Drewniany krawężnik z dębu",
+  "block-edgestonewood-pine-*-*-*": "Drewniany krawężnik z sosny",
+  "block-edgestonewood-cypress-*-*-*": "Drewniany krawężnik z cyprysu",
+  "block-edgestonewood-ebony-*-*-*": "Drewniany krawężnik z hebanu",
+  "block-edgestonewood-larch-*-*-*": "Drewniany krawężnik z modrzewia",
+  "block-edgestonewood-purpleheart-*-*-*": "Drewniany krawężnik z amarantu",
+  "block-edgestonewood-redwood-*-*-*": "Drewniany krawężnik z sekwoi",
+  "block-edgestonewood-walnut-*-*-*": "Drewniany krawężnik z orzecha",
+
+  //Misc
+  "item-concretemix": "Mieszanka na beton"
+}

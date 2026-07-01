@@ -28,6 +28,42 @@
         <None Update="**\*.tt">
             <Generator>TextTemplatingFileGenerator</Generator>
         </None>
+        <None Update="assets\moreroads\textures\block\edging\clay\edgegray.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\clay\edgefire.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\clay\straight-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\clay\straight-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\clay\cap-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\clay\cap-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\clay\corner-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\clay\corner-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\lang\clay &amp; wood blocks\en.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\lang\stone\en.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\lang\stone\pl.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\lang\stone\ru.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 
@@ -52,6 +88,8 @@
 
     <ItemGroup>
       <Folder Include="assets\" />
+      <Folder Include="assets\moreroads\lang\compatibility\clay &amp; wood &amp; concrete\" />
+      <Folder Include="assets\moreroads\shapes\block\edging\" />
     </ItemGroup>
 
 </Project>

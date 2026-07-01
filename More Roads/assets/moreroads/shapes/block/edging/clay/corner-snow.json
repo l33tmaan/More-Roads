@@ -9,7 +9,6 @@
 		"snowcover": [16,16]
 	},
 	"textures": {
-		"snowcover": "game:block/liquid/snow/normal1"
 	},
 	"elements": [
 		{
@@ -18,18 +17,19 @@
 			"to": [ 16.0, 2.0, 4.0 ],
 			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
 			"faces": {
-				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 2.0 ], "rotation": 180 },
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
 				"east": { "texture": "#null", "uv": [ 2.5, 0.0, 6.5, 2.0 ] },
 				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
 				"west": { "texture": "#null", "uv": [ 2.5, 0.0, 6.5, 2.0 ] },
 				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
-				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 180 }
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
 			},
 			"children": [
 				{
 					"name": "Cube-snow1",
 					"from": [ 0.0, 2.0, 0.0 ],
 					"to": [ 16.0, 4.0, 4.0 ],
+					"renderInEditor": false,
 					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
 					"faces": {
 						"north": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 16.0, 2.0 ] },
@@ -47,17 +47,18 @@
 			"to": [ 4.0, 2.0, 16.0 ],
 			"rotationOrigin": [ 0.0, 0.0, 4.0 ],
 			"faces": {
-				"east": { "texture": "#null", "uv": [ 4.0, 0.0, 16.0, 2.0 ], "rotation": 180 },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 2.0 ], "rotation": 180 },
 				"south": { "texture": "#null", "uv": [ 2.5, 0.0, 6.5, 2.0 ] },
 				"west": { "texture": "#null", "uv": [ 4.0, 0.0, 16.0, 2.0 ] },
 				"up": { "texture": "#null", "uv": [ 4.0, 0.0, 16.0, 4.0 ], "rotation": 90 },
-				"down": { "texture": "#null", "uv": [ 0.5, 0.0, 12.5, 4.0 ], "rotation": 270 }
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 4.0 ], "rotation": 270 }
 			},
 			"children": [
 				{
 					"name": "Cube-snow2",
 					"from": [ 0.0, 2.0, 0.0 ],
 					"to": [ 4.0, 4.0, 12.0 ],
+					"renderInEditor": false,
 					"rotationOrigin": [ 0.0, 2.0, 0.0 ],
 					"faces": {
 						"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },
@@ -70,6 +71,7 @@
 							"name": "Cube5",
 							"from": [ 4.0, -2.0, 0.0 ],
 							"to": [ 16.0, 0.0, 12.0 ],
+							"renderInEditor": false,
 							"rotationOrigin": [ 4.0, -2.0, 0.0 ],
 							"faces": {
 								"east": { "texture": "#snowcover", "uv": [ 0.0, 0.0, 12.0, 2.0 ] },

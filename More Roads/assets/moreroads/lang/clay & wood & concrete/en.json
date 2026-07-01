@@ -1,0 +1,61 @@
+{
+  //Clay brick roads
+  "block-stoneroad-brown-*": "Brown clay road",
+  "block-stoneroad-black-*": "Black clay road",
+  "block-stoneroad-clinker-*": "Clinker clay road",
+  "block-stoneroad-cream-*": "Cream clay road",
+  "block-stoneroad-fire-*": "Fire clay road",
+  "block-stoneroad-gray-*": "Gray clay road",
+  "block-stoneroad-orange-*": "Orange clay road",
+  "block-stoneroad-red-*": "Red clay road",
+  "block-stoneroad-tan-*": "Tan clay road",
+
+  "block-stoneroadslab-brown-*": "Brown clay road slab",
+  "block-stoneroadslab-black-*": "Black clay road slab",
+  "block-stoneroadslab-clinker-*": "Clinker clay road slab",
+  "block-stoneroadslab-cream-*": "Cream clay road slab",
+  "block-stoneroadslab-fire-*": "Fire clay road slab",
+  "block-stoneroadslab-gray-*": "Gray clay road slab",
+  "block-stoneroadslab-orange-*": "Orange clay road slab",
+  "block-stoneroadslab-red-*": "Red clay road slab",
+  "block-stoneroadslab-tan-*": "Tan clay road slab",
+
+  "block-stoneroadstairs-brown-up-*-*": "Brown clay road stairs",
+  "block-stoneroadstairs-black-up-*-*": "Black clay road stairs",
+  "block-stoneroadstairs-clinker-up-*-*": "Clinker clay road stairs",
+  "block-stoneroadstairs-cream-up-*-*": "Cream clay road stairs",
+  "block-stoneroadstairs-fire-up-*-*": "Fire clay road stairs",
+  "block-stoneroadstairs-gray-up-*-*": "Gray clay road stairs",
+  "block-stoneroadstairs-orange-up-*-*": "Orange clay road stairs",
+  "block-stoneroadstairs-red-up-*-*": "Red clay road stairs",
+  "block-stoneroadstairs-tan-up-*-*": "Tan clay road stairs",
+
+  //Clay edging
+  "block-edgestoneclay-brown-*-*-*": "Brown clay edging",
+  "block-edgestoneclay-black-*-*-*": "Black clay edging",
+  "block-edgestoneclay-clinker-*-*-*": "Clinker clay edging",
+  "block-edgestoneclay-cream-*-*-*": "Cream clay edging",
+  "block-edgestoneclay-fire-*-*-*": "Fire clay edging",
+  "block-edgestoneclay-gray-*-*-*": "Gray clay edging",
+  "block-edgestoneclay-orange-*-*-*": "Orange clay edging",
+  "block-edgestoneclay-red-*-*-*": "Red clay edging",
+  "block-edgestoneclay-tan-*-*-*": "Tan clay edging",
+
+  //Wood edging
+  "block-edgestonewood-acacia-*-*-*": "Acacia edging",
+  "block-edgestonewood-aged-*-*-*": "Aged edging",
+  "block-edgestonewood-birch-*-*-*": "Birch edging",
+  "block-edgestonewood-kapok-*-*-*": "Kapok edging",
+  "block-edgestonewood-maple-*-*-*": "Maple edging",
+  "block-edgestonewood-oak-*-*-*": "Oak edging",
+  "block-edgestonewood-pine-*-*-*": "Pine edging",
+  "block-edgestonewood-cypress-*-*-*": "Cypress edging",
+  "block-edgestonewood-ebony-*-*-*": "Ebony edging",
+  "block-edgestonewood-larch-*-*-*": "Larch edging",
+  "block-edgestonewood-purpleheart-*-*-*": "Purpleheart edging",
+  "block-edgestonewood-redwood-*-*-*": "Redwood edging",
+  "block-edgestonewood-walnut-*-*-*": "Walnut edging",
+
+  //Misc
+  "item:concretemix": "Concrete mix"
+}
