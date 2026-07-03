@@ -19,10 +19,10 @@
 	},
 	"textures": {
         "stone": { "base": "game:block/stone/rock/{type}*" },
-		"path1": { "base": "block/stonefootpath/{type}_stones_1" },
-        "path2": { "base": "block/stonefootpath/{type}_stones_2" },
-        "path3": { "base": "block/stonefootpath/{type}_stones_3" },
-        "path4": { "base": "block/stonefootpath/{type}_stones_4" }
+		"path1": { "base": "block/stonefootpath/{type}/path1" },
+        "path2": { "base": "block/stonefootpath/{type}/path2" },
+        "path3": { "base": "block/stonefootpath/{type}/path3" },
+        "path4": { "base": "block/stonefootpath/{type}/path4" }
 	},
 	"resistance": 0.4,
 	"walkspeedmultiplier": 1.2,
