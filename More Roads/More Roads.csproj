@@ -28,10 +28,10 @@
         <None Update="**\*.tt">
             <Generator>TextTemplatingFileGenerator</Generator>
         </None>
-        <None Update="assets\moreroads\textures\block\edging\clay\edgegray.png">
+        <None Update="assets\moreroads\textures\block\edging\clay\gray.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="assets\moreroads\textures\block\edging\clay\edgefire.png">
+        <None Update="assets\moreroads\textures\block\edging\clay\fire.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Update="assets\moreroads\shapes\block\edging\clay\straight-free.json">
@@ -64,6 +64,144 @@
         <None Update="assets\moreroads\lang\stone\ru.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\straight-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\cap-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\cap-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\corner-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\corner-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\andesite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\basalt.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\bauxite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\chalk.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\chert.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\claystone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\conglomerate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\granite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\kimberlite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\limestone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\obsidian.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\peridotite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\phyllite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\sandstone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\shale.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\stone\slate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\straight-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\cap-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\cap-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\corner-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\rock\corner-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\brick\brick.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\brick\brickcap.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\brick\brickcorner.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\brick\brickstraight.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\clay\clay.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\clay\claycap.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\clay\claycorner.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\clay\claystraight.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\stone\stone.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\stone\stonecap.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\stone\stonecorner.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\stone\stonestraight.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\wood\wood.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\wood\woodcap.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\wood\woodcorner.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\recipes\grid\edging\wood\woodstraight.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\wood\straight-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\wood\straight-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\wood\corner-free.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\shapes\block\edging\wood\corner-snow.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 
@@ -89,7 +227,7 @@
     <ItemGroup>
       <Folder Include="assets\" />
       <Folder Include="assets\moreroads\lang\compatibility\clay &amp; wood &amp; concrete\" />
-      <Folder Include="assets\moreroads\shapes\block\edging\" />
+      <Folder Include="assets\moreroads\recipes\grid\roads\" />
     </ItemGroup>
 
 </Project>

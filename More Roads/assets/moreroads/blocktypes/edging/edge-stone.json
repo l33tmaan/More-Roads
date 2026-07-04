@@ -1,0 +1,126 @@
+{
+	"code": "edgestone",
+	"attributes": {
+		"handbook": { "groupBy": ["edgestone-*"] }
+	},
+    "variantgroups": [
+        {"code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+        { "code": "corner", "states": ["straight", "corner", "cap"] },
+        { "loadFromProperties": "game:abstract/horizontalorientation" },
+        { "code": "cover", "states": ["free", "snow"] }
+    ],
+	"class": "BlockStairs",
+	"shapeByType": { 
+		"*-*-north-*": {"base": "block/edging/stone/{corner}-{cover}", "rotateY": 0 },
+		"*-*-west-*": {"base": "block/edging/stone/{corner}-{cover}", "rotateY": 90 },
+		"*-*-south-*": {"base": "block/edging/stone/{corner}-{cover}", "rotateY": 180 },
+		"*-*-east-*": {"base": "block/edging/stone/{corner}-{cover}", "rotateY": 270 }
+	},
+	"creativeinventory": { "general": ["*-north-free"], "decorative": ["*-north-free"], "construction": ["*-north-free"], "moreroads": ["*-north-free"] },
+	"blockmaterial": "Stone",
+	"replaceable": 900,
+    "emitSideAO": { "all": false },
+	"lightAbsorption": 0,
+	"textures": {
+		"null": { "base": "game:block/stone/rock/{type}*" },
+		"snowcover": { "base": "game:block/liquid/snow/normal*" }
+	},
+	"resistance": 2.4,
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"collisionSelectionBoxesByType": {
+		"*-straight-*": [
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.15, "z2": 0.25,
+				"rotateYByType": {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90
+				} 
+			}
+		],
+		"*-corner-*": [
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.15, "z2": 0.25,
+				"rotateYByType": {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90
+				} 
+			},
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.15, "z2": 1,
+				"rotateYByType": {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90
+				} 
+			}
+		],
+		"*-cap-*": [
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.15, "z2": 0.25,
+				"rotateYByType": {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90
+				} 
+			},
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.15, "z2": 0.25,
+				"rotateYByType": {
+					"*-north-*": 0,
+					"*-east-*": 270,
+					"*-south-*": 180,
+					"*-west-*": 90
+				} 
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+    "guiTransformByType": {
+        "*-straight-*": {
+            "origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
+            "scale": 1.75
+        },
+        "*-corner-*": {
+            "rotation": { "x": -22.6, "y": 45, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.15, "z": 0.2 },
+            "scale": 1.5
+        },
+        "*-cap-*": {
+            "origin": { "x": 0.5, "y": -0.2, "z": 0.5 },
+            "scale": 3
+        }
+    },
+    "tpHandTransformByType": {
+        "*-straight-*": {
+            "translation": { "x": -0.725, "y": -0.375, "z": -0.45 },
+            "rotation": { "x": 8, "y": -78, "z": 11 },
+            "scale": 0.56
+        },
+        "*-corner-*": {
+            "translation": { "x": -1, "y": -0.525, "z": -0.45 },
+            "rotation": { "x": 25, "y": -120, "z": -7 },
+            "scale": 0.56
+        },
+        "*-cap-*": {
+            "translation": { "x": -0.85, "y": -0.275, "z": -1.15 },
+            "rotation": { "x": 8, "y": -83, "z": 11 },
+            "scale": 0.56
+        }
+    },
+    "groundTransformByType": {
+        "*": {
+            "translation": { "x": 0, "y": 0.65, "z": 0 },
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+            "scale": 5
+        }
+    },
+	"sounds": {
+		"walk": "game:walk/stone",
+		"byTool": {
+			"Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+		}
+	}
+}

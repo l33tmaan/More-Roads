@@ -6,5 +6,5 @@
 	},
 	"width": 3,
 	"height": 1,
-	"output": { "type": "block", "code": "edgestoneclay-{brick}-straight-north-free", "quantity": 4 }
+	"output": { "type": "block", "code": "edgeclay-{brick}-straight-north-free", "quantity": 4 }
 }

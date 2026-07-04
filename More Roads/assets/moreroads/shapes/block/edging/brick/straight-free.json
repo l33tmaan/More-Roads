@@ -5,11 +5,16 @@
 	},
 	"textureWidth": 16,
 	"textureHeight": 4,
+	"textureSizes": {
+	},
+	"textures": {
+	},
 	"elements": [
 		{
 			"name": "Cube1",
-			"from": [ 0.0, 0.0, 0.0 ], 
-			"to": [ 16.0, 4.0, 4.0 ], 
+			"from": [ 0.0, -1.0, -0.001 ],
+			"to": [ 16.0, 3.0, 3.999 ],
+			"rotationOrigin": [ 0.0, -1.0, -0.001 ],
 			"faces": {
 				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
 				"east": { "texture": "#null", "uv": [ 2.0, 0.0, 6.0, 4.0 ] },

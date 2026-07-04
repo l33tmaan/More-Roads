@@ -1,36 +1,28 @@
 {
-	"code": "edgestoneclay",
+	"code": "edgebrick",
 	"attributes": {
-		"handbook": { "groupBy": ["edgestoneclay-*"] }
+		"handbook": { "groupBy": ["edgebrick-*"] }
 	},
+    "variantgroups": [
+        { "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+        { "code": "corner", "states": ["straight", "corner", "cap"] },
+        { "loadFromProperties": "game:abstract/horizontalorientation" },
+        { "code": "cover", "states": ["free", "snow"] }
+    ],
 	"class": "BlockStairs",
 	"shapeByType": { 
-		"*-straight-north-*": {"base": "block/edging/clay/straight-{cover}", "rotateY": 0 },
-		"*-straight-west-*": {"base": "block/edging/clay/straight-{cover}", "rotateY": 90 },
-		"*-straight-south-*": {"base": "block/edging/clay/straight-{cover}", "rotateY": 180 },
-		"*-straight-east-*": {"base": "block/edging/clay/straight-{cover}", "rotateY": 270 },
-		"*-corner-north-*": {"base": "block/edging/clay/corner-{cover}", "rotateY": 0 },
-		"*-corner-west-*": {"base": "block/edging/clay/corner-{cover}", "rotateY": 90 },
-		"*-corner-south-*": {"base": "block/edging/clay/corner-{cover}", "rotateY": 180 },
-		"*-corner-east-*": {"base": "block/edging/clay/corner-{cover}", "rotateY": 270 },
-		"*-cap-north-*": {"base": "block/edging/clay/cap-{cover}", "rotateY": 0 },
-		"*-cap-west-*": {"base": "block/edging/clay/cap-{cover}", "rotateY": 90 },
-		"*-cap-south-*": {"base": "block/edging/clay/cap-{cover}", "rotateY": 180 },
-		"*-cap-east-*": {"base": "block/edging/clay/cap-{cover}", "rotateY": 270 }
+		"*-*-north-*": {"base": "block/edging/brick/{corner}-{cover}", "rotateY": 0 },
+		"*-*-west-*": {"base": "block/edging/brick/{corner}-{cover}", "rotateY": 90 },
+		"*-*-south-*": {"base": "block/edging/brick/{corner}-{cover}", "rotateY": 180 },
+		"*-*-east-*": {"base": "block/edging/brick/{corner}-{cover}", "rotateY": 270 }
 	},
 	"creativeinventory": { "general": ["*-north-free"], "decorative": ["*-north-free"], "construction": ["*-north-free"], "moreroads": ["*-north-free"] },
 	"blockmaterial": "Stone",
 	"replaceable": 900,
     "emitSideAO": { "all": false },
 	"lightAbsorption": 0,
-	"variantgroups": [
-        { "code": "type", "states": ["tan", "red", "brown", "cream", "gray", "black", "clinker", "orange", "fire"] },
-		{ "code": "corner", "states": ["straight", "corner", "cap"] },
-		{ "loadFromProperties": "game:abstract/horizontalorientation" },
-		{ "code": "cover", "states": ["free", "snow"] }
-	],
 	"textures": {
-		"null": { "base": "block/edging/clay/edge{type}" },
+		"null": { "base": "block/edging/brick/{type}" },
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }
 	},
 	"resistance": 2.4,
@@ -38,7 +30,7 @@
 	"sidesolid": { "all": false },
 	"collisionSelectionBoxesByType": {
 		"*-straight-*": [
-			{ "x1": 0, "y1": -0.125, "z1":0, "x2": 1, "y2": 0.125, "z2": 0.25,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.1875, "z2": 0.25,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -48,7 +40,7 @@
 			}
 		],
 		"*-corner-*": [
-			{ "x1": 0, "y1": -0.125, "z1":0, "x2": 1, "y2": 0.125, "z2": 0.25,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.1875, "z2": 0.25,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -56,7 +48,7 @@
 					"*-west-*": 90
 				} 
 			},
-			{ "x1": 0, "y1": -0.125, "z1":0, "x2": 0.25, "y2": 0.125, "z2": 1,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.1875, "z2": 1,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -66,15 +58,7 @@
 			}
 		],
 		"*-cap-*": [
-			{ "x1": 0, "y1": -0.125, "z1":0, "x2": 0.25, "y2": 0.125, "z2": 0.25,
-				"rotateYByType": {
-					"*-north-*": 0,
-					"*-east-*": 270,
-					"*-south-*": 180,
-					"*-west-*": 90
-				} 
-			},
-			{ "x1": 0, "y1": -0.125, "z1":0, "x2": 0.25, "y2": 0.125, "z2": 0.25,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.1875, "z2": 0.25,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -84,14 +68,7 @@
 			}
 		]
 	},
-	"heldTpIdleAnimationByType": {
-        "*-straight-*": "holdbothhandslarge",
-        "*-corner-*": "holdbothhandslarge"
-    }, 
-    "heldTpUseAnimationByType": {
-        "*-straight-*": "twohandplaceblock",
-        "*-corner-*": "twohandplaceblock"
-    },
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
     "guiTransformByType": {
         "*-straight-*": {
             "origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
@@ -104,12 +81,12 @@
         },
         "*-cap-*": {
             "origin": { "x": 0.5, "y": -0.15, "z": 0.5 },
-            "scale": 1.75
+            "scale": 3
         }
     },
     "tpHandTransformByType": {
         "*-straight-*": {
-            "translation": { "x": -0.775, "y": -0.375, "z": -0.45 },
+            "translation": { "x": -0.725, "y": -0.375, "z": -0.45 },
             "rotation": { "x": 8, "y": -78, "z": 11 },
             "scale": 0.56
         },

@@ -1,0 +1,12 @@
+[
+    {
+        "ingredientPattern": "BMB",
+        "ingredients": {
+            "M": { "type": "item", "code": "game:mortar" },
+            "B": { "type": "item", "code": "game:stonebrick-*", "name": "brick"}
+        },
+        "width": 3,
+        "height": 1,
+        "output": { "type": "block", "code": "edgebrick-{brick}-straight-north-free", "quantity": 4 }
+    }
+]
