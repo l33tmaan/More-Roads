@@ -16,6 +16,9 @@
 		"slab": { base: "block/stonepath/{type}*" },
 		"snowcover": { base: "game:block/liquid/snow/normal*" },
 	},
+    "behaviorsByType": {
+        "*-snow": [{"name": "BreakSnowFirst"}]
+    },
 	attributes: {
 		handbook: {
 			groupBy: ["stonepathslab-*-free"]

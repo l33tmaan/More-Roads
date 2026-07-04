@@ -64,6 +64,9 @@
 			"snowcover": { base: "game:block/liquid/snow/normal*", "rotation": 90 },
 		},
 	},
+    "behaviorsByType": {
+        "*-snow": [{"name": "BreakSnowFirst"}]
+    },
 	replaceable: 900,
 	resistance: 2.4,
 	emitSideAo: { all: true },

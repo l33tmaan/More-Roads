@@ -26,6 +26,9 @@
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }
 		}
 	},
+    "behaviorsByType": {
+        "*-snow": [{"name": "BreakSnowFirst"}]
+    },
 	"resistance": 2.4,
 	"sideopaque": { "all": false },
 	"sidesolid": { "all": false },

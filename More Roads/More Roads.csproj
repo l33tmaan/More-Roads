@@ -202,6 +202,18 @@
         <None Update="assets\moreroads\shapes\block\edging\wood\corner-snow.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
+        <None Update="assets\moreroads\blocktypes\stone\stonefootpath.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\stonepath.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\stonepathslab.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\stonepathstairs.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
     </ItemGroup>
 
 

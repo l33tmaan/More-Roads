@@ -19,6 +19,9 @@
 		"slab": { "base": "block/road/clay/{type}/stoneroad*" },
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }
 	},
+    "behaviorsByType": {
+        "*-snow": [{"name": "BreakSnowFirst"}]
+    },
 	"drops": [{ "code": "stoneroadslab-{type}-free" }],
 	"resistance": 2.4,
 	"walkspeedmultiplier": 1.6,
