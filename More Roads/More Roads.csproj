@@ -202,16 +202,484 @@
         <None Update="assets\moreroads\shapes\block\edging\wood\corner-snow.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="assets\moreroads\blocktypes\stone\stonefootpath.json">
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\basic\ancientroad.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="assets\moreroads\blocktypes\stone\stonepath.json">
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\basic\ancientroad-stairs.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="assets\moreroads\blocktypes\stone\stonepathslab.json">
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\basic\ancientroad-slab.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="assets\moreroads\blocktypes\stone\stonepathstairs.json">
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\brick\ancientroad-brick.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\brick\ancientroad-brickslab.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\brick\ancientroad-brickstairs.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\circle\ancientroad-circle.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\circle\ancientroad-circleslab.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\circle\ancientroad-circlestairs.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\fish\ancientroad-fish.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\fish\ancientroad-fishslab.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\fish\ancientroad-fishstairs.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\square\ancientroad-square.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\square\ancientroad-squareslab.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\stone\roads\stone\square\ancientroad-squarestairs.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\andesite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\basalt.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\bauxite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\chalk.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\chert.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\claystone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\conglomerate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\granite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\kimberlite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\limestone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\oblivion.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\obsidian.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\peridotite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\phyllite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\sandstone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\shale.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\brick\slate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\andesite1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\andesite2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\andesite3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\andesite4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\basalt1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\basalt2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\basalt3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\basalt4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\bauxite1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\bauxite2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\bauxite3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\bauxite4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chalk1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chalk2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chalk3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chalk4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chert1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chert2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chert3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\chert4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\claystone1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\claystone2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\claystone3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\claystone4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\conglomerate1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\conglomerate2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\conglomerate3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\conglomerate4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\granite1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\granite2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\granite3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\granite4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\kimberlite1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\kimberlite2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\kimberlite3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\kimberlite4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\limestone1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\limestone2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\limestone3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\limestone4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\obsidian1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\obsidian2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\obsidian3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\obsidian4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\peridotite1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\peridotite2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\peridotite3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\peridotite4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\phyllite1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\phyllite2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\phyllite3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\phyllite4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\sandstone1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\sandstone2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\sandstone3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\sandstone4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\shale1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\shale2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\shale3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\shale4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\slate1.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\slate2.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\slate3.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\basic\slate4.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\andesite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\basalt.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\bauxite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\chalk.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\chert.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\claystone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\conglomerate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\granite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\kimberlite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\limestone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\obsidian.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\peridotite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\phyllite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\sandstone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\shale.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\circle\slate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\andesite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\basalt.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\bauxite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\chalk.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\chert.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\claystone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\conglomerate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\granite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\kimberlite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\limestone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\obsidian.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\peridotite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\phyllite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\sandstone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\shale.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\fish\slate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\andesite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\basalt.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\bauxite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\chalk.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\chert.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\claystone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\conglomerate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\granite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\kimberlite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\limestone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\obsidian.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\peridotite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\phyllite.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\sandstone.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\shale.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\road\ancientroad\square\slate.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\acacia.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\aged.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\birch.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\cypress.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\ebony.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\kapok.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\larch.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\maple.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\oak.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\pine.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\purpleheart.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\redwood.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\textures\block\edging\wood\walnut.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\roads\stone\ancientroad.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\roads\stone\ancientroad-slab.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="assets\moreroads\blocktypes\roads\stone\ancientroad-stairs.json">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>

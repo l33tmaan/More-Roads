@@ -8,12 +8,14 @@
 
 1.6.0
 - Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao - DONE!!!
+- Massive back-end refactor, many block IDs changed - DONE!!!
 - Liquid concrete removed - DONE!!!
 - Wooden path variants removed - they're now in vanilla! Hooray! - DONE!!!
 - Blue clay blocks changed into gray clay blocks - DONE!!! 
 - Textures updated for basically everything
 - Transforms updated
 - Edging block IDs changed, remappings added - DONE!!!
+- Remappings updated? oh lord
 
 1.5.8
 - Compatible with Bricklayers

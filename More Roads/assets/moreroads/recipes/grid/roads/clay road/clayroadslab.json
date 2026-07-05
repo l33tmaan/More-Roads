@@ -1,0 +1,11 @@
+{
+	"ingredientPattern": "BSL",
+	"ingredients": {
+		"L": { "type": "item", "code": "game:stone-*", "quantity": 2 },
+		"S": { "type": "item", "code": "game:lime" },
+		"B": { "type": "item", "code": "game:burnedbrick-*", "name": "brick"}
+	},
+	"width": 3,
+	"height": 1,
+	"output": { "type": "block", "code": "clayroadslab-{brick}-free", "quantity": 2 }
+}

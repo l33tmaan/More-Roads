@@ -4,7 +4,7 @@
 		"handbook": { "groupBy": ["edgestonewood-*"] }
 	},
     "variantgroups": [
-        { "code": "type", "states": ["acacia", "aged", "birch", "kapok", "maple", "oak", "pine", "cypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] },
+        { "code": "type", "states": ["acacia", "aged", "birch", "cypress", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
         { "code": "corner", "states": ["straight", "corner", "cap"] },
         { "loadFromProperties": "game:abstract/horizontalorientation" },
         { "code": "cover", "states": ["free", "snow"] }
@@ -22,7 +22,7 @@
     "emitSideAO": { "all": false },
 	"lightAbsorption": 0,
 	"textures": {
-		"null": { "base": "block/road/woodedge{type}",
+		"null": { "base": "block/edging/wood/{type}",
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }
 		}
 	},
