@@ -6,7 +6,7 @@
 - blendedOverlays used to minimize texture usage
 - Edging blocks turned into decor?
 
-1.6.0
+2.0.0
 - Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao - DONE!!!
 - Massive back-end refactor, many block IDs changed - DONE!!!
 - Liquid concrete removed - DONE!!!
