@@ -16,6 +16,8 @@
 - Transforms updated
 - Edging block IDs changed, remappings added - DONE!!!
 - Remappings updated? oh lord
+- Obsidian bricks added? 
+- Obsidian paths, Travertine and suevite stuff added
 
 1.5.8
 - Compatible with Bricklayers

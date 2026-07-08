@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "B_,ML",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:stone-*" },
+      "M": { "type": "item", "code": "game:mortar" },
+      "B": { "type": "item", "code": "game:stonebrick-*", "name": "brick"}
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "block", "code": "ancientroadstairs-basic-{brick}-up-north-free", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "B_,ML",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:stone-*" },
+      "M": { "type": "item", "code": "game:mortar" },
+      "B": { "type": "item", "code": "game:stone-kimberlite", "quantity": 4}
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "block", "code": "ancientroadstairs-basic-kimberlite-up-north-free", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "B_,ML",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:stone-*" },
+      "M": { "type": "item", "code": "game:mortar" },
+      "B": { "type": "item", "code": "game:stone-obsidian", "quantity": 4}
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "block", "code": "ancientroadstairs-basic-obsidian-up-north-free", "quantity": 1 }
+  }
+]

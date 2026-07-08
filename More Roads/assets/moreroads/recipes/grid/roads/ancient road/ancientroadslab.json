@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "BML",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:stone-*", "quantity": 1 },
+      "M": { "type": "item", "code": "game:mortar" },
+      "B": { "type": "item", "code": "game:stonebrick-*", "name": "brick"}
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "ancientroadslab-basic-{brick}-free", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "BML",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:stone-*", "quantity": 1 },
+      "M": { "type": "item", "code": "game:mortar" },
+      "B": { "type": "item", "code": "game:stone-kimberlite", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "ancientroadslab-basic-kimberlite-free", "quantity": 2 }
+  },
+  {
+    "ingredientPattern": "BML",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:stone-*", "quantity": 1 },
+      "M": { "type": "item", "code": "game:mortar" },
+      "B": { "type": "item", "code": "game:stone-obsidian", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "ancientroadslab-basic-obsidian-free", "quantity": 2 }
+  }
+]
