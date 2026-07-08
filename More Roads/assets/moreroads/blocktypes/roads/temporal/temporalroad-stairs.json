@@ -38,26 +38,26 @@
 	"textures": {
 		"stairshor": { 
 			"base": "block/road/ancientroad/basic/{type}1",
-			"overlays": ["block/road/temporaloverlaytop"],
+			"overlays": ["block/road/temporaloverlaystairtop"],
 			"alternates": [
 			{"base": "block/road/ancientroad/basic/{type}2",
-			"overlays": ["block/road/temporaloverlaytop"]},
+			"overlays": ["block/road/temporaloverlaystairtop"]},
 			{"base": "block/road/ancientroad/basic/{type}3",
-			"overlays": ["block/road/temporaloverlaytop"]},
+			"overlays": ["block/road/temporaloverlaystairtop"]},
 			{"base": "block/road/ancientroad/basic/{type}4",
-			"overlays": ["block/road/temporaloverlaytop"]}
+			"overlays": ["block/road/temporaloverlaystairtop"]}
 			]
 		},
 		"stairsvert": { 
 			"base": "block/road/ancientroad/basic/{type}1",
-			"overlays": ["block/road/temporaloverlaytop"],
+			"overlays": ["block/road/temporaloverlaystairtop"],
 			"alternates": [
 			{"base": "block/road/ancientroad/basic/{type}2",
-			"overlays": ["block/road/temporaloverlaytop"]},
+			"overlays": ["block/road/temporaloverlaystairtop"]},
 			{"base": "block/road/ancientroad/basic/{type}3",
-			"overlays": ["block/road/temporaloverlaytop"]},
+			"overlays": ["block/road/temporaloverlaystairtop"]},
 			{"base": "block/road/ancientroad/basic/{type}4",
-			"overlays": ["block/road/temporaloverlaytop"]}
+			"overlays": ["block/road/temporaloverlaystairtop"]}
 			]
 		},
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }

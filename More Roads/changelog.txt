@@ -5,6 +5,9 @@
 - IDK how to make temporal roads lol
 - blendedOverlays used to minimize texture usage
 - Edging blocks turned into decor?
+- Better Ruins road blueprint compatibility added
+- Compatible with Bricklayers
+- Compatible with Natural Geology
 
 2.0.0
 - Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao - DONE!!!
@@ -20,7 +23,6 @@
 - Obsidian paths, Travertine and suevite stuff added
 
 1.5.8
-- Compatible with Bricklayers
 
 1.5.8
 - Wildcraft Trees compatibility updated
