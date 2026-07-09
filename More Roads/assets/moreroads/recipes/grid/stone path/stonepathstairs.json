@@ -1,11 +1,11 @@
 ﻿{
-	ingredientPattern: "L_,MM,S_",
-	ingredients: {
-		"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble"], "quantity": 2 },
-		"M": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble"], "quantity": 1 },
-		"S": { type: "block", code: "game:soil-*" },
+	"ingredientPattern": "L_,MM,S_",
+	"ingredients": {
+        "L": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "suevite", "travertine", "whitemarble"], "quantity": 2 },
+        "M": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "suevite", "travertine", "whitemarble"], "quantity": 1 },
+		"S": { "type": "block", "code": "game:soil-*" }
 	},
-	width: 2,
-	height: 3,
-	output: { type: "block", code: "stonepathstairs-{rock}-up-north-free", quantity: 1  }
+	"width": 2,
+	"height": 3,
+	"output": { "type": "block", "code": "stonepathstairs-{rock}-up-north-free", "quantity": 1  }
 }

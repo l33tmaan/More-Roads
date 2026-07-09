@@ -15,11 +15,10 @@
 - Liquid concrete removed - DONE!!!
 - Wooden path variants removed - they're now in vanilla! Hooray! - DONE!!!
 - Blue clay blocks changed into gray clay blocks - DONE!!! 
-- Textures updated for basically everything
+- Textures updated for basically everything - DONE!!!
 - Transforms updated
 - Edging block IDs changed, remappings added - DONE!!!
 - Remappings updated? oh lord
-- Obsidian bricks added? 
 - Obsidian paths, Travertine and suevite stuff added
 
 1.5.8

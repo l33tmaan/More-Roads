@@ -15,7 +15,7 @@
 		{ "name": "WrenchOrientable", "properties": { "baseCode": "stonepathstairs-*-up-*-{cover}" } }
 	],
 	"variantgroups": [
-		{ "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble" ] },
+        { "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "suevite", "travertine", "whitemarble" ] },
 		{ "code": "updown", "states": ["up"] },
 		{ "loadFromProperties": "abstract/horizontalorientation" },
 		{ "code": "cover", "states": ["free", "snow"] }

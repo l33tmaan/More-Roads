@@ -9,12 +9,12 @@
 	"replaceable": 900,
 	"lightAbsorption": 99,
 	"variantgroups": [
-		{ "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "whitemarble" ] },
+        { "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "greenmarble", "kimberlite", "limestone", "obsidian", "peridotite" ,"phyllite", "redmarble", "sandstone", "scoria", "shale", "slate", "suevite", "travertine", "whitemarble" ] },
 		{ "code": "cover", "states": ["free", "snow"] }
 	],
 	"textures": {
 		"slab": { "base": "block/stonepath/{type}*" },
-		"snowcover": { "base": "game:block/liquid/snow/normal*" },
+		"snowcover": { "base": "game:block/liquid/snow/normal*" }
 	},
     "behaviorsByType": {
         "*-snow": [{"name": "BreakSnowFirst"}]
