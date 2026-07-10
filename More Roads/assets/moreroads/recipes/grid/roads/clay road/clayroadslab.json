@@ -2,7 +2,7 @@
 	"ingredientPattern": "BSL",
 	"ingredients": {
 		"L": { "type": "item", "code": "game:stone-*", "quantity": 2 },
-		"S": { "type": "item", "code": "game:lime" },
+		"S": { "type": "item", "code": "game:mortar" },
 		"B": { "type": "item", "code": "game:burnedbrick-*", "name": "brick"}
 	},
 	"width": 3,
