@@ -1,7 +1,7 @@
 {
 	"ingredientPattern": "E",
 	"ingredients": {
-		"E": { "type": "block", "code": "edgebrick-*-cap-north-free", "name": "brick"},
+		"E": { "type": "block", "name": "brick", "code": "edgebrick-*-cap-north-free"}
 	},
 	"width": 1,
 	"height": 1,

@@ -8,5 +8,25 @@
         "width": 3,
         "height": 1,
         "output": { "type": "block", "code": "edgebrick-{brick}-straight-north-free", "quantity": 4 }
-    }
+    },
+    {
+      "ingredientPattern": "BMB",
+      "ingredients": {
+          "M": { "type": "item", "code": "game:mortar" },
+          "B": { "type": "item", "code": "game:stone-obsidian", "quantity": 4 }
+      },
+      "width": 3,
+      "height": 1,
+      "output": { "type": "block", "code": "edgebrick-obsidian-straight-north-free", "quantity": 4 }
+    },
+  {
+    "ingredientPattern": "BMB",
+    "ingredients": {
+        "M": { "type": "item", "code": "game:mortar" },
+        "B": { "type": "item", "code": "game:stone-kimberlite", "quantity": 4 }
+    },
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "edgebrick-kimberlite-straight-north-free", "quantity": 4 }
+  }
 ]

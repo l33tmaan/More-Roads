@@ -11,7 +11,7 @@
 	"blockmaterial": "stone",
 	"variantgroups": [
         { "code": "style", "states":  ["basic", "brick", "circle", "fish", "flagstone", "square"] },
-		{ "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+        { "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "suevite", "travertine", "kimberlite", "obsidian"] },
 		{ "code": "cover", "states": ["free", "snow"] }
 	],
 	"replaceable": 900,

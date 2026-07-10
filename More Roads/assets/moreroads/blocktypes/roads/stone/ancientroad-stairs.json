@@ -7,7 +7,7 @@
 	},
 	"variantgroups": [
         { "code": "style", "states":  ["basic", "brick", "circle", "fish", "flagstone", "square"] },
-		{ "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+        { "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "suevite", "travertine", "kimberlite", "obsidian"] },
 		{ "code": "updown", "states": ["up"] },
 		{ "loadFromProperties": "abstract/horizontalorientation" },
 		{ "code": "cover", "states": ["free", "snow"] }

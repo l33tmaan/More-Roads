@@ -4,7 +4,7 @@
 		"handbook": { "groupBy": ["edgestone-*"] }
 	},
     "variantgroups": [
-        {"code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "kimberlite", "obsidian"] },
+        { "code": "type", "states": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "kimberlite", "limestone", "obsidian" ,"peridotite", "phyllite", "sandstone", "shale", "slate", "suevite", "travertine", "greenmarble", "redmarble", "whitemarble" ] },
         { "code": "corner", "states": ["straight", "corner", "cap"] },
         { "loadFromProperties": "game:abstract/horizontalorientation" },
         { "code": "cover", "states": ["free", "snow"] }
