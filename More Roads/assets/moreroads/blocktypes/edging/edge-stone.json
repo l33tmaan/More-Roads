@@ -71,35 +71,43 @@
 			}
 		]
 	},
-	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+    "heldTpIdleAnimationByType": {
+        "*-straight-*": "holdbothhandslarge",
+        "*-corner-*": "holdbothhandslarge"
+    },
+    "heldTpUseAnimationByType": {
+        "*-straight-*": "twohandplaceblock",
+        "*-corner-*": "twohandplaceblock"
+    },
     "guiTransformByType": {
         "*-straight-*": {
             "origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
             "scale": 1.75
         },
         "*-corner-*": {
-            "rotation": { "x": -22.6, "y": 45, "z": 0 },
+            "rotation": { "x": -22.5, "y": 45, "z": 0 },
             "origin": { "x": 0.5, "y": 0.15, "z": 0.2 },
             "scale": 1.5
         },
         "*-cap-*": {
-            "origin": { "x": 0.5, "y": -0.2, "z": 0.5 },
-            "scale": 3
+            "rotation": { "x": -22.5, "y": 0, "z": 0 },
+            "origin": { "x": 0.1, "y": -0, "z": 0.25 },
+            "scale": 4
         }
     },
     "tpHandTransformByType": {
         "*-straight-*": {
-            "translation": { "x": -0.725, "y": -0.375, "z": -0.45 },
+            "translation": { "x": -0.575, "y": -0.375, "z": -0.45 },
             "rotation": { "x": 8, "y": -78, "z": 11 },
             "scale": 0.56
         },
         "*-corner-*": {
-            "translation": { "x": -1, "y": -0.525, "z": -0.45 },
+            "translation": { "x": -0.8, "y": -0.525, "z": -0.45 },
             "rotation": { "x": 25, "y": -120, "z": -7 },
             "scale": 0.56
         },
         "*-cap-*": {
-            "translation": { "x": -0.85, "y": -0.275, "z": -1.15 },
+            "translation": { "x": -0.8, "y": -0.275, "z": -1.15 },
             "rotation": { "x": 8, "y": -83, "z": 11 },
             "scale": 0.56
         }

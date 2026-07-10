@@ -19,9 +19,7 @@
 - Transforms updated
 - Edging block IDs changed, remappings added - DONE!!!
 - Remappings updated? oh lord
-- Obsidian paths, Travertine and suevite stuff added
-
-1.5.8
+- Obsidian paths, Travertine and suevite stuff added - DONE!!!
 
 1.5.8
 - Wildcraft Trees compatibility updated

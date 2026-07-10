@@ -71,7 +71,14 @@
 			}
 		]
 	},
-	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+    "heldTpIdleAnimationByType": {
+        "*-straight-*": "holdbothhandslarge",
+        "*-corner-*": "holdbothhandslarge"
+    },
+    "heldTpUseAnimationByType": {
+        "*-straight-*": "twohandplaceblock",
+        "*-corner-*": "twohandplaceblock"
+    },
     "guiTransformByType": {
         "*-straight-*": {
             "origin": { "x": 0.5, "y": 0.1, "z": 0.1 },
