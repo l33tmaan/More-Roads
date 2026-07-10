@@ -22,7 +22,7 @@
     "emitSideAO": { "all": false },
 	"lightAbsorption": 0,
 	"textures": {
-		"null": { "base": "game:block/stone/rock/{type}*" },
+		"material": { "base": "game:block/stone/rock/{type}*" },
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }
 	},
     "behaviorsByType": {
@@ -33,7 +33,7 @@
 	"sidesolid": { "all": false },
 	"collisionSelectionBoxesByType": {
 		"*-straight-*": [
-			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.15, "z2": 0.25,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.15, "z2": 0.125,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -43,7 +43,7 @@
 			}
 		],
 		"*-corner-*": [
-			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.15, "z2": 0.25,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 1, "y2": 0.15, "z2": 0.125,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -51,7 +51,7 @@
 					"*-west-*": 90
 				} 
 			},
-			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.15, "z2": 1,
+			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.125, "y2": 0.15, "z2": 1,
 				"rotateYByType": {
 					"*-north-*": 0,
 					"*-east-*": 270,
@@ -61,14 +61,6 @@
 			}
 		],
 		"*-cap-*": [
-			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.15, "z2": 0.25,
-				"rotateYByType": {
-					"*-north-*": 0,
-					"*-east-*": 270,
-					"*-south-*": 180,
-					"*-west-*": 90
-				} 
-			},
 			{ "x1": 0, "y1": 0, "z1":0, "x2": 0.25, "y2": 0.15, "z2": 0.25,
 				"rotateYByType": {
 					"*-north-*": 0,

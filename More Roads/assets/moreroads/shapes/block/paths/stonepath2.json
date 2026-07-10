@@ -8,7 +8,7 @@
 	"textureHeight": 16,
 	"textures": {
         "stone": "game:block/stone/rock/andesite2",
-        "path2": "block/stonefootpath/andesite_stones_2"
+        "path2": "block/stonefootpath/andesite/path2"
 	},
 	"elements": [
 		{

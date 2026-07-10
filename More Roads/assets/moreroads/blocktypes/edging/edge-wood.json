@@ -1,7 +1,7 @@
 {
 	"code": "edgewood",
 	"attributes": {
-		"handbook": { "groupBy": ["edgestonewood-*"] }
+		"handbook": { "groupBy": ["edgewood-*"] }
 	},
     "variantgroups": [
         { "code": "type", "states": ["acacia", "aged", "birch", "cypress", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ] },
@@ -22,9 +22,8 @@
     "emitSideAO": { "all": false },
 	"lightAbsorption": 0,
 	"textures": {
-		"null": { "base": "block/edging/wood/{type}",
+		"null": { "base": "block/edging/wood/{type}" },
 		"snowcover": { "base": "game:block/liquid/snow/normal*" }
-		}
 	},
     "behaviorsByType": {
         "*-snow": [{"name": "BreakSnowFirst"}]
