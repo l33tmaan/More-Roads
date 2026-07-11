@@ -2,14 +2,15 @@
   "type": 1,
   "texturesize": 32,
   "name": "More Roads & Paths",
-  "version": "1.6.1",
+  "version": "2.0.0",
   "networkversion": null,
   "description": "Adds new path variants, new roads, and edge decor.",
   "modid": "moreroads",
-  "authors": ["l33tmaan", "Stroam"],
+  "authors": ["l33tmaan"],
+  "contributors": ["Stroam", "FuegoFish"],
 
   "side": "Universal",
   "requiredonclient": true,
   "requiredonserver": true,
-  "dependencies": {"em": "1.0.1"}
+  "dependencies": {"em": "3.7.0"}
 }

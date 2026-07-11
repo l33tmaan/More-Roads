@@ -16,7 +16,7 @@
 - Wooden path variants removed - they're now in vanilla! Hooray! - DONE!!!
 - Blue clay blocks changed into gray clay blocks - DONE!!! 
 - Textures updated for basically everything - DONE!!!
-- Transforms updated
+- Transforms updated - DONE!!!
 - Edging block IDs changed, remappings added - DONE!!!
 - Remappings updated? oh lord
 - Obsidian paths, Travertine and suevite stuff added - DONE!!!
