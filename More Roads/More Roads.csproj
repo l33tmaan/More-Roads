@@ -699,12 +699,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="modicon.png" Condition="Exists('modicon.png')">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
-
-    <ItemGroup>
       <Folder Include="assets\" />
       <Folder Include="assets\moreroads\lang\compatibility\clay &amp; wood &amp; concrete\" />
       <Folder Include="assets\moreroads\recipes\grid\roads\" />

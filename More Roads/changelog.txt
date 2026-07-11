@@ -1,8 +1,4 @@
-﻿1.X.X
-- Gave shovel the ability to convert dirt to 'loose dirt', which then combines with stones to make stone paths
-- Added the ability to place rock & stones & cement into a block & combine with stone bricks to make stone roads
-- Added the ability to place clay bricks and mortar into a block to make clay roads
-- IDK how to make temporal roads lol
+﻿2.X.X
 - blendedOverlays used to minimize texture usage
 - Edging blocks turned into decor?
 - Better Ruins road blueprint compatibility added
@@ -10,16 +6,14 @@
 - Compatible with Natural Geology
 
 2.0.0
-- Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao - DONE!!!
-- Massive back-end refactor, many block IDs changed - DONE!!!
-- Liquid concrete removed - DONE!!!
-- Wooden path variants removed - they're now in vanilla! Hooray! - DONE!!!
-- Blue clay blocks changed into gray clay blocks - DONE!!! 
-- Textures updated for basically everything - DONE!!!
-- Transforms updated - DONE!!!
-- Edging block IDs changed, remappings added - DONE!!!
-- Remappings updated? oh lord
-- Obsidian paths, Travertine and suevite stuff added - DONE!!!
+- Reverted back to a content mod. It's not like I'm gonna make some big fancy roadlaying system anytime soon lmao
+- Massive back-end refactor, edging & stone road IDs changed, remappings added
+- Liquid concrete removed
+- Wooden path variants removed - they're now in vanilla! Hooray!
+- Blue clay blocks changed into gray clay blocks
+- Textures updated for basically everything
+- Transforms updated
+- Obsidian paths, Travertine and suevite stuff added 
 
 1.5.8
 - Wildcraft Trees compatibility updated
