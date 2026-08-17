@@ -2,7 +2,7 @@
   {
     "ingredientPattern": "BGB,OTO,LML",
     "ingredients": {
-      "B": { "type": "item", "code": "game:stonebrick-*", "name": "brick", "quantity": 16},
+      "B": { "type": "item", "code": "game:stonebrick-*", "name": "brick", "quantity": 16, "allowedVariants":["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "granite", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate", "suevite", "travertine"]},
       "M": { "type": "item", "code": "game:metalplate-*", "allowedVariants": [
         "copper",
         "brass",
